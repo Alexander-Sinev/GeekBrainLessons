@@ -14,7 +14,9 @@ while (inp != 'end'):
             my_list.append(inp)
             break
         elif (inp == my_list[n]):
-            my_list.insert(n + 1, inp)
+            while (inp == my_list[n]):
+                n = n + 1
+            my_list.insert(n, inp)
             break
         elif (inp > my_list[0]):
             my_list.insert(0, inp)
