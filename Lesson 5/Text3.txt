@@ -1,0 +1,4 @@
+Black:25000
+White:18500
+Blue:12000
+Green:20000
